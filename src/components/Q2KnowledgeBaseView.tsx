@@ -46,7 +46,7 @@ export const Q2KnowledgeBaseView: React.FC = () => {
           <div>
             <div className="flex items-center space-x-2">
               <span className="px-2.5 py-1 rounded-md text-xs font-bold uppercase tracking-wider bg-indigo-100 text-indigo-800 border border-indigo-200">
-                Question 2: Production-Ready Knowledge Base
+                Production Knowledge Base
               </span>
               <span className="text-xs text-slate-500 font-medium">Hybrid Okapi BM25 + Dense Semantic RRF</span>
             </div>
@@ -54,15 +54,15 @@ export const Q2KnowledgeBaseView: React.FC = () => {
               Data Cleaning Pipeline, Taxonomy, & Verifiable Retrieval Engine
             </h1>
             <p className="text-sm text-slate-600 mt-1">
-              Transforms noisy unstructured web, PDF, and form content into sanitized, deduplicated, PII-protected, traceable knowledge records with full source citation.
+              Transforms unstructured web, PDF, and form content into sanitized, deduplicated, PII-protected, traceable knowledge records with full source citation.
             </p>
           </div>
 
           {/* Sub-tab Navigation */}
           <div className="flex items-center space-x-1.5 bg-slate-100 p-1.5 rounded-lg border border-slate-200">
             {[
-              { id: 'verification', label: 'Retrieval Tests (5 Queries)', icon: CheckCircle },
-              { id: 'sandbox', label: 'Live RAG Sandbox', icon: Search },
+              { id: 'verification', label: 'Retrieval Verification', icon: CheckCircle },
+              { id: 'sandbox', label: 'Search Sandbox', icon: Search },
               { id: 'pipeline', label: 'Cleaning & PII Pipeline', icon: ShieldCheck },
               { id: 'schema', label: 'Taxonomy & Schema', icon: Layers },
             ].map(tab => {
@@ -92,9 +92,9 @@ export const Q2KnowledgeBaseView: React.FC = () => {
           <div className="bg-white rounded-xl border border-slate-200 p-5 shadow-xs">
             <div className="flex items-center justify-between pb-3 border-b border-slate-100">
               <div>
-                <h3 className="text-base font-bold text-slate-900">Retrieval Verification Benchmark (Assessment Deliverable)</h3>
+                <h3 className="text-base font-bold text-slate-900">Retrieval Verification Benchmark</h3>
                 <p className="text-xs text-slate-500 mt-0.5">
-                  Automated evaluation across all 5 mandatory query categories: Product, Policy, Qualification, FAQ, and Objection.
+                  Automated evaluation across all 5 core query categories: Product, Policy, Qualification, FAQ, and Objection.
                 </p>
               </div>
               <span className="px-3 py-1 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800 border border-emerald-200">
@@ -314,9 +314,9 @@ export const Q2KnowledgeBaseView: React.FC = () => {
       {activeSubTab === 'schema' && (
         <div className="space-y-4">
           <div className="bg-white rounded-xl border border-slate-200 p-5 shadow-xs">
-            <h3 className="text-base font-bold text-slate-900 mb-2">Production Knowledge Base Document Schema</h3>
+            <h3 className="text-base font-bold text-slate-900 mb-2">Knowledge Base Document Schema</h3>
             <p className="text-xs text-slate-600 mb-4">
-              Standardized format exactly adhering to the assessment specification:
+              Standardized enterprise schema with verifiable source citations:
             </p>
 
             <div className="overflow-x-auto">
@@ -324,8 +324,8 @@ export const Q2KnowledgeBaseView: React.FC = () => {
                 <thead>
                   <tr className="bg-slate-100 text-slate-700 font-bold border-b border-slate-200">
                     <th className="py-2.5 px-4 border-r border-slate-200 w-1/4">Field</th>
-                    <th className="py-2.5 px-4 border-r border-slate-200 w-1/4">Assessment Example</th>
-                    <th className="py-2.5 px-4">Apex Commercial Lending Production Implementation</th>
+                    <th className="py-2.5 px-4 border-r border-slate-200 w-1/4">Standard Reference</th>
+                    <th className="py-2.5 px-4">Production Record Implementation</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-slate-200 font-mono text-[11px]">

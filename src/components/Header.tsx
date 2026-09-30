@@ -4,7 +4,7 @@ import {
   Database, 
   Languages, 
   Zap, 
-  FileText, 
+  Server, 
   CheckCircle2, 
   Sun
 } from 'lucide-react';
@@ -18,11 +18,11 @@ interface HeaderProps {
 
 export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab }) => {
   const tabs = [
-    { id: 'q1_voice' as ActiveTab, label: 'Q1: Grounded Voice Agent', icon: PhoneCall },
-    { id: 'q2_kb' as ActiveTab, label: 'Q2: Production Knowledge Base', icon: Database },
-    { id: 'q3_multilingual' as ActiveTab, label: 'Q3: Native SE Asia Bots', icon: Languages },
-    { id: 'q4_nudges' as ActiveTab, label: 'Q4: Live Call Nudges & Latency', icon: Zap },
-    { id: 'architecture' as ActiveTab, label: 'Architecture & Evaluation', icon: FileText },
+    { id: 'q1_voice' as ActiveTab, label: 'Voice Agent', icon: PhoneCall },
+    { id: 'q2_kb' as ActiveTab, label: 'Knowledge Base', icon: Database },
+    { id: 'q3_multilingual' as ActiveTab, label: 'Multilingual Support', icon: Languages },
+    { id: 'q4_nudges' as ActiveTab, label: 'Real-Time Nudges', icon: Zap },
+    { id: 'architecture' as ActiveTab, label: 'System Architecture', icon: Server },
   ];
 
   return (
@@ -36,18 +36,18 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab }) => {
             </div>
             <div>
               <div className="flex items-center space-x-2">
-                <span className="font-bold text-slate-900 tracking-tight text-lg">Apex AI Engineer Platform</span>
+                <span className="font-bold text-slate-900 tracking-tight text-lg">Apex Commercial AI Platform</span>
                 <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold bg-emerald-100 text-emerald-800 border border-emerald-200">
-                  <CheckCircle2 className="w-3 h-3 mr-1" /> Production Ready
+                  <CheckCircle2 className="w-3 h-3 mr-1" /> Active
                 </span>
               </div>
               <p className="text-xs text-slate-500 hidden sm:block">
-                Voice Agent • Grounded RAG • SE Asia Localization • Real-Time Audio Nudges
+                Voice Agent • Grounded Knowledge Base • Regional Localization • Real-Time Audio Nudges
               </p>
             </div>
           </div>
 
-          {/* Light mode indicator & metadata */}
+          {/* Light mode indicator */}
           <div className="flex items-center space-x-3">
             <div className="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-amber-50 text-amber-900 border border-amber-200/80 text-xs font-medium">
               <Sun className="w-4 h-4 text-amber-600" />

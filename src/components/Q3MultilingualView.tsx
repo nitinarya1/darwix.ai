@@ -63,15 +63,15 @@ export const Q3MultilingualView: React.FC = () => {
           <div>
             <div className="flex items-center space-x-2">
               <span className="px-2.5 py-1 rounded-md text-xs font-bold uppercase tracking-wider bg-emerald-100 text-emerald-800 border border-emerald-200">
-                Question 3: Native-Language SE Asia Voice Bots
+                Regional Conversational Systems
               </span>
               <span className="text-xs text-slate-500 font-medium">Philippines (Taglish) & Indonesia (Multifinance)</span>
             </div>
             <h1 className="text-xl font-bold text-slate-900 mt-1">
-              Localized Conversational Prototypes, Code-Switching & Dialect Fallbacks
+              Localized Conversational Models, Code-Switching & Dialect Fallbacks
             </h1>
             <p className="text-sm text-slate-600 mt-1">
-              Engineered for natural financial dialogue, cultural honorifics, intra-sentential loanwords, and zero abrupt English drop-off.
+              Engineered for natural financial dialogue, cultural honorifics, intra-sentential loanwords, and reliable localized escalation.
             </p>
           </div>
 
@@ -85,7 +85,7 @@ export const Q3MultilingualView: React.FC = () => {
                   : 'text-slate-600 hover:text-slate-900'
               }`}
             >
-              <span>🇵🇭 Philippines (Bancassurance)</span>
+              <span>Philippines (Bancassurance)</span>
             </button>
             <button
               onClick={() => setActiveMarket('indonesia')}
@@ -95,7 +95,7 @@ export const Q3MultilingualView: React.FC = () => {
                   : 'text-slate-600 hover:text-slate-900'
               }`}
             >
-              <span>🇮🇩 Indonesia (Multifinance)</span>
+              <span>Indonesia (Multifinance)</span>
             </button>
           </div>
         </div>
@@ -103,9 +103,9 @@ export const Q3MultilingualView: React.FC = () => {
         {/* Sub-tab navigation */}
         <div className="flex space-x-2 mt-4 pt-3 border-t border-slate-100 text-xs">
           {[
-            { id: 'transcripts', label: 'Recorded Call Transcripts & Audio (2 Calls)', icon: Volume2 },
-            { id: 'localization', label: 'Localization vs. Literal Translation (3 Examples)', icon: Sparkles },
-            { id: 'asr_benchmarks', label: 'Language-Specific ASR & TTS Benchmark', icon: Layers },
+            { id: 'transcripts', label: 'Recorded Call Transcripts & Audio', icon: Volume2 },
+            { id: 'localization', label: 'Localization vs. Literal Translation', icon: Sparkles },
+            { id: 'asr_benchmarks', label: 'Language ASR & TTS Benchmark', icon: Layers },
           ].map(tab => {
             const Icon = tab.icon;
             return (

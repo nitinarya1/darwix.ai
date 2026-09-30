@@ -45,7 +45,7 @@ export const INDONESIA_RECORDED_CALLS: MultilingualCallTranscript[] = [
       {
         speaker: 'Agent',
         originalText: 'Selamat pagi Mas Hendra, salam dari BAF Multifinance. Menindaklanjuti simulasi pembiayaan unit Mitsubishi Canter kemarin, apakah ada waktu sebentar untuk verifikasi data pengajuannya Mas?',
-        languageMix: 'Bahasa Indonesia dengan sentuhan Jawa Timur santun',
+        languageMix: 'Indonesian with East Javanese polite register',
         englishGroundedMeaning: 'Good morning Mas Hendra, greetings from BAF Multifinance. Following up on the Mitsubishi Canter financing simulation yesterday, do you have a quick moment to verify your application details?',
         specialTermsUsed: ['pembiayaan', 'unit', 'verifikasi data', 'Mas']
       },
@@ -59,14 +59,14 @@ export const INDONESIA_RECORDED_CALLS: MultilingualCallTranscript[] = [
       {
         speaker: 'Agent',
         originalText: 'Siap Mas Hendra. Untuk unit Canter, promo DP kami di 20%, sekitar Rp 95 juta per unit. Kalau Mas ambil tenor 36 bulan, angsuran per bulannya kena di kisaran Rp 11,8 juta sudah termasuk asuransi all-risk.',
-        languageMix: 'Bahasa Indonesia Keuangan Terstruktur',
+        languageMix: 'Structured Indonesian Financial Register',
         englishGroundedMeaning: 'Understood Mas Hendra. For the Canter unit, our promotional DP is 20%, approximately Rp 95 million per unit. If you choose a 36-month tenor, the monthly installment is around Rp 11.8 million including all-risk insurance.',
         specialTermsUsed: ['DP', 'tenor', 'angsuran', 'asuransi all-risk']
       },
       {
         speaker: 'Customer',
         originalText: 'Oalah cocok itu angsurannya, masih masuk plafon cash flow gudang saya. Tolong dikirimkan rincian PO dan draft SPK ke WhatsApp saya ya Mas.',
-        languageMix: 'Colloquial Jawa-Indonesia',
+        languageMix: 'Colloquial Javanese-Indonesian',
         englishGroundedMeaning: 'Ah that installment matches nicely, still within my warehouse cash flow ceiling. Please send the PO breakdown and SPK contract draft to my WhatsApp.',
         specialTermsUsed: ['angsuran', 'plafon', 'cash flow', 'SPK']
       }
@@ -83,7 +83,7 @@ export const INDONESIA_RECORDED_CALLS: MultilingualCallTranscript[] = [
       {
         speaker: 'Agent',
         originalText: 'Selamat siang Ibu Rahayu. Mohon maaf mengganggu waktunya sebentar, kami dari tim layanan Mega Auto Finance ingin memberikan reminder ramah terkait angsuran mobil Ertiga Ibu sebesar Rp 4.250.000 yang akan jatuh tempo tanggal 3 Oktober besok.',
-        languageMix: 'Bahasa Indonesia Formal Sopan',
+        languageMix: 'Formal Polite Indonesian',
         englishGroundedMeaning: 'Good afternoon Ibu Rahayu. Apologies for taking a moment of your time, we are calling from Mega Auto Finance customer support to provide a friendly reminder regarding your Ertiga car installment of Rp 4,250,000 due tomorrow on October 3.',
         specialTermsUsed: ['angsuran', 'jatuh tempo', 'reminder ramah']
       },
@@ -96,22 +96,22 @@ export const INDONESIA_RECORDED_CALLS: MultilingualCallTranscript[] = [
       },
       {
         speaker: 'Agent',
-        originalText: 'Mboten nopo-nopo Ibu Rahayu, ampun kuatir. Sesuai kebijakan SOP kami, ada masa tenggang toleransi (grace period) 3 hari kalender tanpa denda keterlambatan sama sekali. Jadi kalau Ibu bayar tanggal 6, tetap aman dan tidak ada biaya tambahan.',
-        languageMix: 'Bahasa Indonesia Santun dengan Partikel Jawa',
+        originalText: 'Mboten nopo-nopo Ibu Rahayu, ampun kuatir. Sesuai kebijakan SOP kami, ada masa tenggang toleranzi (grace period) 3 hari kalender tanpa denda keterlambatan sama sekali. Jadi kalau Ibu bayar tanggal 6, tetap aman dan tidak ada biaya tambahan.',
+        languageMix: 'Polite Indonesian with Javanese Particles',
         englishGroundedMeaning: 'No problem at all Ibu Rahayu, please do not worry. Under our SOP policy, there is a 3-calendar-day grace period with zero late fees. So if you pay on October 6, it is completely fine with no extra penalty.',
         specialTermsUsed: ['mboten nopo-nopo', 'ampun kuatir', 'masa tenggang', 'denda keterlambatan']
       },
       {
         speaker: 'Customer',
         originalText: 'Alhamdulillah matur nuwun infonya Mbak, tenang jadinya. Tapi kalau boleh, saya mau minta bantuan ngobrol sama petugas bagian restrukturisasi kredit dong, barangkali bisa minta keringanan tanggal jatuh tempo tiap bulan.',
-        languageMix: 'Bahasa Indonesia & Krama Alus Jawa',
+        languageMix: 'Indonesian & Polite Javanese Register',
         englishGroundedMeaning: 'Praise God, thank you for the information Mbak, that gives me peace of mind. But if possible, I’d like to speak with an officer from the credit restructuring unit, maybe I can adjust the monthly due date.',
         specialTermsUsed: ['matur nuwun', 'restrukturisasi kredit', 'jatuh tempo']
       },
       {
         speaker: 'Agent',
         originalText: 'Nggih Ibu Rahayu, mangga kula sambungkan sakmenika ke Petugas Layanan Restrukturisasi kami nggih. Mohon ditunggu sekedap di telepon.',
-        languageMix: 'Bahasa Jawa Krama Halus / Indonesia Santun (Eskalasi Tanpa Beralih ke Bahasa Inggris)',
+        languageMix: 'Polite Javanese / Indonesian Escalation (No English Fallback)',
         englishGroundedMeaning: 'Yes Ibu Rahayu, please allow me to connect you right now to our Restructuring Officer. Please hold the line for just a moment.',
         specialTermsUsed: ['Nggih', 'mangga kula sambungkan', 'sekedap']
       }

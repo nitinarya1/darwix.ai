@@ -107,9 +107,9 @@ export const Q4LiveNudgesView: React.FC = () => {
           <div>
             <div className="flex items-center space-x-2">
               <span className="px-2.5 py-1 rounded-md text-xs font-bold uppercase tracking-wider bg-amber-100 text-amber-800 border border-amber-200">
-                Question 4: Live Audio Insights & Nudges
+                Real-Time Telephony Nudge Engine
               </span>
-              <span className="text-xs text-slate-500 font-medium">Real-Time Chunk Streaming & Sub-400ms Nudge Engine</span>
+              <span className="text-xs text-slate-500 font-medium">Real-Time Chunk Streaming & Sub-400ms Engine</span>
             </div>
             <h1 className="text-xl font-bold text-slate-900 mt-1">
               Live In-Call Recommendations, Suppression Controls, & Latency Telemetry
@@ -122,9 +122,9 @@ export const Q4LiveNudgesView: React.FC = () => {
           {/* Subtabs */}
           <div className="flex items-center space-x-1.5 bg-slate-100 p-1.5 rounded-lg border border-slate-200">
             {[
-              { id: 'live_stream', label: 'Streaming Nudge Console', icon: Activity },
-              { id: 'latency_report', label: 'P50/P95 Latency Telemetry', icon: Clock },
-              { id: 'scale_analysis', label: '10x Scale & Noise Design', icon: ShieldAlert },
+              { id: 'live_stream', label: 'Streaming Console', icon: Activity },
+              { id: 'latency_report', label: 'Latency Telemetry', icon: Clock },
+              { id: 'scale_analysis', label: 'Scale & Noise Architecture', icon: ShieldAlert },
             ].map(tab => {
               const Icon = tab.icon;
               return (

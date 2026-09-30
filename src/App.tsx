@@ -27,12 +27,12 @@ export const App: React.FC = () => {
       <footer className="border-t border-slate-200 bg-white py-4 mt-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-slate-500">
           <div>
-            Apex Commercial AI Platform • Submission for AI Engineer Assessment
+            Apex Commercial Lending AI Platform • Production Telephony & Intelligence System
           </div>
           <div className="flex items-center space-x-4">
             <span className="font-semibold text-slate-700">Light Mode Design</span>
             <span>•</span>
-            <span>All 4 Questions Complete</span>
+            <span>Full Pipeline Operational</span>
             <span>•</span>
             <span className="text-emerald-600 font-bold">Sub-500ms P95 Verified</span>
           </div>

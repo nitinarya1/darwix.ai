@@ -199,15 +199,15 @@ export const Q1VoiceAgentView: React.FC = () => {
           <div>
             <div className="flex items-center space-x-2">
               <span className="px-2.5 py-1 rounded-md text-xs font-bold uppercase tracking-wider bg-blue-100 text-blue-800 border border-blue-200">
-                Question 1: Production Voice Agent
+                Production Voice Agent
               </span>
-              <span className="text-xs text-slate-500 font-medium">Use Case: Commercial SME Loan Qualification</span>
+              <span className="text-xs text-slate-500 font-medium">Commercial SME Loan Qualification</span>
             </div>
             <h1 className="text-xl font-bold text-slate-900 mt-1">
               Grounded Web Calling Interface & Qualification Engine
             </h1>
             <p className="text-sm text-slate-600 mt-1">
-              Fully connected to the Question 2 Knowledge Base. Employs strict grounding, zero hallucination fallback, and instant human escalation.
+              Connected directly to the Knowledge Base. Employs verifiable grounding, zero-hallucination fallback, and instant human escalation.
             </p>
           </div>
 
@@ -422,9 +422,9 @@ export const Q1VoiceAgentView: React.FC = () => {
             <div className="flex items-center justify-between mb-3">
               <div className="flex items-center space-x-2">
                 <FileCheck2 className="w-4 h-4 text-blue-600" />
-                <h4 className="text-sm font-bold text-slate-900">Required Test Scenarios (1-Click Automated Runner)</h4>
+                <h4 className="text-sm font-bold text-slate-900">Pre-Configured Scenarios</h4>
               </div>
-              <span className="text-xs text-slate-500 font-medium">5 Scenarios Evaluated</span>
+              <span className="text-xs text-slate-500 font-medium">5 Scenarios</span>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
@@ -567,7 +567,7 @@ export const Q1VoiceAgentView: React.FC = () => {
             <div className="flex items-center justify-between pb-3 border-b border-slate-100">
               <div className="flex items-center space-x-2">
                 <ExternalLink className="w-4 h-4 text-indigo-600" />
-                <h3 className="text-sm font-bold text-slate-900">Optional Business Action: CRM Webhook</h3>
+                <h3 className="text-sm font-bold text-slate-900">CRM Lead Webhook Dispatch</h3>
               </div>
               <span className={`text-[10px] px-2 py-0.5 rounded font-bold ${
                 crmPayload?.webhookStatus === 'DISPATCHED' ? 'bg-emerald-100 text-emerald-800' : 'bg-slate-100 text-slate-600'
